@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Hack FF - Hai iOS (Mô phỏng)</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #111, #333);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-container {
+      max-width: 400px;
+      margin: auto;
+      background: #1a1a1a;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    h1 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 12px 0;
+      background: #222;
+      padding: 10px 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px #00ffcc44;
+    }
+
+    .toggle span {
+      font-size: 16px;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 46px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0;
+      right: 0; bottom: 0;
+      background-color: #888;
+      border-radius: 24px;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      border-radius: 50%;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #00ffcc;
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(22px);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-container">
+    <h1>🔥 Menu Hai iOS 🔥</h1>
+
+    <div class="toggle">
+      <span>📍 Aimbot</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle">
+      <span>🎯 Aimlock</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle">
+      <span>⚡ Buff 120Hz</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle">
+      <span>🛡️ Antiban</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle">
+      <span>👁️ ESP (Hiển thị địch)</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle">
+      <span>🔫 Auto Headshot</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Menu mô phỏng bởi Hai iOS | Không chứa mã hack thật</p>
+  </footer>
+
+</body>
+</html>
